@@ -7,7 +7,7 @@ body {
     margin: 40px;
     background: #FFFFFF;
     color: #000000;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 h1.sub {
@@ -17,12 +17,10 @@ h1.sub {
 
 article {
     margin-top: 20px;
-    float: left;
-    max-width: 30%;
 }
 
 article h1 {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 a, a:hover, a:focus, a:active, a:visited {

@@ -45,9 +45,16 @@ table td:nth-child(3) {
 button {
     width: 60%;
     height: 40px;
-    background: #FF0000;
+    background: #e00;
     border: 2px solid #FF0000;
     border-radius: 20px;
     color: #FFFFFF;
     cursor: pointer;
+}
+
+caption {
+    display: table-caption;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
 }

@@ -42,6 +42,7 @@ article {
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
+    background-color: #red;
 }
 
 .logged_out_form {
@@ -89,7 +90,7 @@ input[type="radio"], input[type="checkbox"] {
     margin-top: 10px;
 }
 
-.btn {
+button {
     display: inline-block;
     margin-bottom: 0;
     font-weight: normal;
@@ -112,7 +113,8 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .btn-primary {
-    background-color: #F80002;
+    background-color: #FFFFFF;
     background: linear-gradient(#F80002, #DF0002);
+    background-color: #red;
     border-color: #C60002;
 }

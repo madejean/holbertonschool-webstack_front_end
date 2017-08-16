@@ -7,23 +7,23 @@
     <body>
         <main>
             <article>
-                <h2>Holberton School</h2>
+                <h1>Holberton School</h1>
                 <div class="logged_out_form">
                     <img src="images/logo.png" alt="Holberton logo">
-                    
+
                     <form class="sm-gap" id="new_user" action="/auth/sign_in" accept-charset="UTF-8" method="post">
                         <div class="field">
-                            <div>Email</div><br>
+                            <label for="user_login">Email</label><br>
                             <input class="form-control" type="text" name="user_login" id="user_login">
                         </div>
                         <div class="field">
-                            <div>Password</div><br>
+                            <label for="user_password">Password</label><br>
                             <input autocomplete="off" class="form-control" type="password" name="user_password" id="user_password">
                         </div>
 
                         <div class="field">
                             <input name="user[remember_me]" type="hidden" value="0"><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
-                            <div class="remember">Remember me</div>
+                            <label for="user_remember_me">Remember me</label>
                         </div>
 
                         <div class="actions">
