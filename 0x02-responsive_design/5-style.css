@@ -1,0 +1,11 @@
+img {
+  width: 124px;
+  height: 186px; }
+
+body {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
+
+/*# sourceMappingURL=5-style.css.map */

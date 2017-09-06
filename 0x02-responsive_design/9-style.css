@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh; }
+
+.item:first-child {
+  flex: 50%; }
+
+.item:nth-child(3) {
+  flex: 50%; }
+
+.item:nth-child(3), .item:last-child {
+  align-self: flex-end; }
+
+/*# sourceMappingURL=9-style.css.map */

@@ -1,0 +1,14 @@
+h1 {
+  display: block; }
+
+.mobile {
+  display: none; }
+
+@media only screen and (max-width: 600px) {
+  .mobile {
+    display: block; }
+
+  h1 {
+    display: none; } }
+
+/*# sourceMappingURL=4-style.css.map */

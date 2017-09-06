@@ -1,0 +1,8 @@
+body {
+  background-color: #FF0000; }
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: #00FF00; } }
+
+/*# sourceMappingURL=1-style.css.map */

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.box1, .box5 {
+  height: 120px;
+  width: 120px; }
+
+.box2, .box4 {
+  height: 140px;
+  width: 140px; }
+
+.box3 {
+  height: 160px;
+  width: 160px; }
+
+.box1 {
+  background-color: blue; }
+
+.box2 {
+  background-color: green; }
+
+.box3 {
+  background-color: red; }
+
+.box4 {
+  background-color: yellow; }
+
+.box5 {
+  background-color: purple; }
+
+/*# sourceMappingURL=101-style.css.map */

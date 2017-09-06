@@ -1,0 +1,18 @@
+.container {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap; }
+
+.box1 {
+  width: 100%;
+  background-color: #FF0000; }
+
+.box2 {
+  width: 33%;
+  background-color: #00FF00; }
+
+.box3 {
+  flex-grow: 1;
+  background-color: #0000FF; }
+
+/*# sourceMappingURL=10-style.css.map */
